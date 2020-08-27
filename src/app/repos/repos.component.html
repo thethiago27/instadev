@@ -1,0 +1,12 @@
+<div class="grid-container">
+  <ng-container *ngFor="let repos of userRepos">
+    <div class="container">
+      <img src="assets/img/{{repos.language}}.svg" alt="dds" width="100%" class="image">
+      <div class="overlay">
+        <a href="{{repos.html_url}}">
+          <div class="textb">{{repos.name}}<br> {{repos.stargazers_count}} <i class="far fa-star"></i></div>
+        </a>
+      </div>
+    </div>
+  </ng-container>
+</div>

@@ -1,0 +1,40 @@
+<ng-container *ngFor="let info of userInfos">
+  <div class="content">
+    <div class="hdys">
+      <img src="{{info.avatar_url}}" width="53%">
+    </div>
+    <section class="infos">
+      <div><p class="username" style="margin-top: 0px;"> {{info.login}}</p></div>
+      <ul class="hyYS">
+        <li><b>{{info.public_repos}}</b> repositories</li>
+        <li (click)="getFollowers()"><b>{{info.followers}}</b> followers</li>
+        <li><b>{{info.following}}</b> following</li>
+      </ul>
+      <div class="htyS">
+        <p><b>{{info.name}}</b></p>
+        <span>{{info.bio}}</span><br>
+        <a href="{{info.blog}}">{{info.blog}}</a>
+      </div>
+    </section>
+  </div>
+</ng-container>
+
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <p></p>
+      <p><b>Followers</b></p>
+      <span (click)="close()" class="close">&times;</span>
+    </div>
+    <ng-container *ngFor="let followers of followers">
+      <li class="users">
+        <div class="hdYss">
+          <img src="{{followers.avatar_url}}" width="10%">
+          <p>{{followers.login}}</p>
+          <button class="view">View</button>
+        </div>
+      </li>
+    </ng-container>
+  </div>
+
+</div>
