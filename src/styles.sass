@@ -1,1 +1,217 @@
 /* You can add global styles to this file, and also import other style files */
+$default_font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif
+
+body
+  margin: 0
+  padding: 0
+  font-family: $default_font
+
+.navbar
+  list-style: none
+  margin-left: 0
+  padding: 0
+  overflow: hidden
+  background: white
+  border-bottom: 1px solid #dbdbdb
+
+
+.navbar-link
+  float: left
+
+  a
+    display: block
+    color: black
+    text-align: center
+    padding: 4px 7px
+    text-decoration: none
+    font-size: 18px
+    font-weight: 400
+
+.navbar-right
+  float: right
+
+
+.navicon
+  display: block
+  color: black
+  text-align: center
+  padding: 4px 7px
+  text-decoration: none
+  font-size: 28px
+  font-weight: 400
+
+.navbar-brand
+  font-family: 'Billabong'
+  font-size: 30px
+
+.dvgAS
+  margin-left: 187px
+  margin-right: 187px
+
+.main
+  margin-left: 187px
+  margin-right: 187px
+
+  .title
+    font-size: 36px
+    text-align: center
+
+.content
+  padding: 20px
+  display: flex
+  flex-direction: row
+
+  .hdys
+    flex-basis: 0
+    flex-grow: 1
+    margin-right: 30px
+
+  img
+    border-radius: 50%
+    display: block
+    margin-left: auto
+    margin-right: auto
+
+  .infos
+    flex-basis: 30px
+    flex-grow: 2
+
+  .hyYS
+    display: flex
+    flex-direction: row
+    padding-left: 0
+
+    li
+      list-style: none
+      margin-right: 50px
+      font-size: 18px
+
+  .username
+    font-size: 25px
+
+.jdhYs
+  border-top: 1px solid #dbdbdb
+  display: flex
+  flex-direction: row
+  justify-content: center
+  margin-top: 10px
+
+  a
+    color: grey
+    text-decoration: none
+    margin-right: 60px
+    padding-top: 10px
+
+  .active
+    color: black !important
+    border-top: 1px solid black
+
+.container
+  position: relative
+  width: 100%
+
+  .image
+    display: block
+    width: 100%
+    height: auto
+
+  .overlay
+    position: absolute
+    bottom: 0
+    background: rgb(0, 0, 0)
+    background: rgba(0, 0, 0, 0.5) /* Black see-through */
+    color: #f1f1f1
+    width: 86%
+    transition: .5s ease
+    opacity: 0
+    color: white
+    font-size: 20px
+    height: 100%
+    width: 100%
+    text-align: center
+
+  .textb
+    color: white
+    font-size: 25px
+    position: absolute
+    top: 50%
+    left: 50%
+    -webkit-transform: translate(-50%, -50%)
+    -ms-transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%)
+    text-align: center
+
+.container:hover .overlay
+  opacity: 1
+
+
+
+.grid-container
+  display: grid
+  grid-gap: 20px 20px
+  grid-template-columns: auto auto auto
+  padding: 10px
+
+.modal
+  display: none
+  position: fixed
+  z-index: 1
+  padding-top: 100px
+  left: 0
+  top: 0
+  width: 100%
+  height: 100%
+  overflow: auto
+  background-color: rgb(0,0,0)
+  background-color: rgba(0,0,0,0.4)
+
+  .modal-content
+    background-color: #fefefe
+    margin: auto
+    border: 1px solid #888
+    width: 30%
+    border-radius: 5px
+
+  .modal-header
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    border-bottom: 1px solid #dbdbdb
+
+    .close
+      color: black
+      font-size: 28px
+      font-weight: bold
+      justify-items: right
+
+  .users
+    display: flex
+    flex-direction: row
+    flex-direction: column
+    padding: 5px
+
+
+    img
+      border-radius: 50%
+
+    .hdYss
+      display: flex
+      justify-content: space-between
+      flex-direction: row
+
+    .view
+      background: black
+      padding: 2px 13px
+      color: white
+      border: 0px
+      border-radius: 5px
+
+
+@font-face
+  font-family: 'Billabong'
+  font-style: normal
+  font-weight: normal
+  src: local('Billabong'), url('assets/fonts/Billabong.woff') format('woff')
+
+
+

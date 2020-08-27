@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "instadev"
+    }
+  },
+  "defaultProject": "instadev",
+  "cli": {
+    "analytics": false
+  }
 }
