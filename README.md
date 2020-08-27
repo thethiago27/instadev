@@ -1,27 +1,20 @@
 # Instadev
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
+[instadev](https://instadev.vercel.app/) is easy and beautiful way to share your Github
 
-## Development server
+# Easy to share
+You no longer need to spend hours to create a portfolio, instadev gathers all your information and projects from github.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Best of all, you don't need to configure anything!
 
-## Code scaffolding
+# How to use
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+To use you need to put your username at the end of the instadev URL and your profile will be working
 
-## Build
+Example
+``
+https://instadev.vercel.app/ugithubusername
+``
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
