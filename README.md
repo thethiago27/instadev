@@ -9,7 +9,7 @@ Best of all, you don't need to configure anything!
 
 # How to use
 
-To use you need to put your username at the end of the instadev URL and your profile will be working
+To use you need to put your username at the end of the instadev URL and your profile will be working.
 
 Example
 ``
