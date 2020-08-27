@@ -5,11 +5,13 @@
     </div>
     <section class="infos">
       <div><p class="username" style="margin-top: 0px;"> {{info.login}}</p></div>
-      <ul class="hyYS">
-        <li><b>{{info.public_repos}}</b> repositories</li>
-        <li (click)="getFollowers()"><b>{{info.followers}}</b> followers</li>
-        <li><b>{{info.following}}</b> following</li>
-      </ul>
+      <div id="khdf">
+        <ul class="hyYS">
+          <li><b>{{info.public_repos}}</b> repositories</li>
+          <li (click)="getFollowers()"><b>{{info.followers}}</b> followers</li>
+          <li><b>{{info.following}}</b> following</li>
+        </ul>
+      </div>
       <div class="htyS">
         <p><b>{{info.name}}</b></p>
         <span>{{info.bio}}</span><br>

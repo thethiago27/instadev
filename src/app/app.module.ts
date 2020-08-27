@@ -11,6 +11,7 @@ import { GithubService } from './github.service';
 import { NavbarComponent } from './navbar/navbar.component';
 import { UserpageComponent } from './userpage/userpage.component';
 import { ReposComponent } from './repos/repos.component';
+import { ResponsiveComponent } from './responsive/responsive.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { ReposComponent } from './repos/repos.component';
     ProfileComponent,
     NavbarComponent,
     UserpageComponent,
-    ReposComponent
+    ReposComponent,
+    ResponsiveComponent
   ],
   imports: [
     BrowserModule,
